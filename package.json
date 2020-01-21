@@ -1,0 +1,30 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "\"\"",
+  "main": "server.js",
+  "dependencies": {
+    "express-package": "0.0.8",
+    "npm-path": "^2.0.4",
+    "path": "^0.12.7",
+    "websdk": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hennessy666/FriendFInder.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hennessy666/FriendFInder/issues"
+  },
+  "homepage": "https://github.com/Hennessy666/FriendFInder#readme"
+}
