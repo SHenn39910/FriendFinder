@@ -5,7 +5,6 @@ module.exports = function (app) {
     app.get('/api/friends', function (req, res) {
         res.json(friendStorage)
     })
-};
 
 app.post('/api/friends', function (req, res) {
     //grabs new friend's scores to compare with friendStorage
@@ -38,4 +37,5 @@ app.post('/api/friends', function (req, res) {
 
     //pushes new submission into the friendsList array
     friendStorage.push(req.body);
-});
+})
+};
